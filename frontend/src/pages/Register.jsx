@@ -104,7 +104,7 @@ function Register() {
             <label>Full Name</label>
             <input
               className={`form__input ${error ? "form__input--error" : ""}`}
-              placeholder="Jane Doe"
+              placeholder="Ram Karki"
               value={name}
               onChange={(e) => { setName(e.target.value); clearError(); }}
             />
