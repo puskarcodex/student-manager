@@ -22,7 +22,7 @@ function Login() {
         setTimeout(() => {
           setToast(false);
           navigate("/dashboard");
-        }, 1800);
+        }, 1000);
       })
       .catch((err) => {
         const msg =
